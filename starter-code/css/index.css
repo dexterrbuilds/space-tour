@@ -95,3 +95,62 @@ header img {
   align-items: center;
   justify-content: center;
 }
+
+/* RESPONSIVENESS */
+
+@media (min-width: 748px) and (max-width: 770px) {
+  body {
+    background-image: url(../assets/home/background-home-tablet.jpg);
+    margin-top: 0;
+  }
+
+  header {
+    align-items: flex-start;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .nav-bg {
+    width: 400px;
+    margin-top: 0;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .home-info {
+    display: block;
+    text-align: center;
+    width: 450px;
+    margin-top: 100px;
+  }
+
+  .info {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+  }
+
+  .sywt {
+    font-size: larger;
+    text-align: center;
+  }
+
+  .space {
+    font-size: 150px;
+  }
+
+  .exp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
