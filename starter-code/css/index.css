@@ -27,6 +27,15 @@ header {
   font-weight: bold;
 }
 
+.nav-item {
+  padding: 30px 0;
+}
+
+.nav-item:hover {
+  border-bottom: 3px solid white;
+  cursor: pointer;
+}
+
 header img {
   width: 40px;
   height: 40px;
