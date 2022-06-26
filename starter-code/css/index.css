@@ -32,6 +32,15 @@ header img {
   height: 40px;
 }
 
+.line {
+  background-color: white;
+  height: 1px;
+  width: 500px;
+  position: absolute;
+  right: 650px;
+  opacity: 0.3;
+}
+
 .sywt {
   font-family: "Barlow Condensed";
   font-size: xx-large;
