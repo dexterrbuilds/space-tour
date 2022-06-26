@@ -13,7 +13,7 @@ header {
 }
 
 .nav-bg {
-  background: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   height: 80px;
   display: flex;
   align-items: center;
@@ -40,13 +40,40 @@ header img {
 .space {
   font-family: "Bellefair";
   font-size: 120px;
+  padding: 20px 0;
 }
 
 .home-info {
+  margin: 180px 150px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
   width: 360px;
 }
 
 .space-txt {
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
+  line-height: 1.6;
+}
+
+.exp-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.explore {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 100px;
+  color: black;
+  font-family: "Bellefair";
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
