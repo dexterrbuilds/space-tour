@@ -185,7 +185,7 @@ header img {
   .info {
     margin-right: 0;
     width: 390px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
   }
 
   .space {
@@ -200,5 +200,6 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 0 40px;
   }
 }
