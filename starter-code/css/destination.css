@@ -323,4 +323,17 @@ section {
   .dash {
     width: 100%;
   }
+
+  .j-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .j-title {
+    text-align: center;
+  }
+
+  .j-deets {
+    text-align: center;
+  }
 }
