@@ -211,6 +211,14 @@ section {
   .info {
     text-align: center;
   }
+
+  .dash {
+    width: 100%;
+  }
+
+  .j-details {
+    padding: 0 100px;
+  }
 }
 
 @media (max-width: 490px) {
