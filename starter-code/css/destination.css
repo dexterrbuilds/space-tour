@@ -119,7 +119,7 @@ section {
 }
 
 .info {
-  font-family: "Bellefair";
+  font-family: "Barlow Condensed";
 }
 
 .dash {
@@ -171,6 +171,45 @@ section {
 
   .line {
     display: none;
+  }
+
+  section {
+    margin: 20px;
+  }
+
+  .p-info {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .moon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    width: 300px;
+  }
+
+  .p-names {
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .name {
+    padding: 0 10px;
+  }
+
+  .planet {
+    justify-content: center;
+  }
+
+  .d-info {
+    width: 80%;
+  }
+
+  .info {
+    text-align: center;
   }
 }
 
