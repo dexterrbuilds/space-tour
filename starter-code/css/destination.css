@@ -120,6 +120,14 @@ section {
   cursor: pointer;
 }
 
+#nm {
+  border-bottom: 2px solid white;
+}
+
+.name:hover {
+  border-bottom: 2px solid white;
+}
+
 .p-name {
   display: flex;
   justify-content: flex-start;

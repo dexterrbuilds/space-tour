@@ -12,14 +12,17 @@ const destMoon = document.getElementById("moon");
 
 function switchMars() {
   destMoon.innerHTML = document.getElementById("mars").innerHTML;
+  document.getElementById("mar").style.borderBottom = "2px solid white";
 }
 
 function switchEur() {
   destMoon.innerHTML = document.getElementById("europa").innerHTML;
+  document.getElementById("eur").style.borderBottom = "2px solid white";
 }
 
 function switchTit() {
   destMoon.innerHTML = document.getElementById("titan").innerHTML;
+  document.getElementById("tit").style.borderBottom = "2px solid white";
 }
 
 function switchMoon() {

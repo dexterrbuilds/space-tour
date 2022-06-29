@@ -38,13 +38,13 @@
       </div>
     </header>
     <section>
-      <div class="pyd">01 PICK YOUR DESTINATION</div>
+      <div class="pyd" id="names">01 PICK YOUR DESTINATION</div>
       <div id="p-inf">
         <div id="moon" class="p-info pm">
           <img class="p-img" src="assets/destination/image-moon.png" alt="" />
           <div class="d-info">
             <div class="p-names">
-              <div class="name">MOON</div>
+              <div id="nm" class="name">MOON</div>
               <div class="name" onclick="switchMars()">MARS</div>
               <div class="name" onclick="switchEur()">EUROPA</div>
               <div class="name" onclick="switchTit()">TITAN</div>
@@ -75,7 +75,7 @@
           <img class="p-img" src="assets/destination/image-moon.png" alt="" />
           <div class="d-info">
             <div class="p-names">
-              <div class="name">MOON</div>
+              <div id="nm" class="name">MOON</div>
               <div class="name" onclick="switchMars()">MARS</div>
               <div class="name" onclick="switchEur()">EUROPA</div>
               <div class="name" onclick="switchTit()">TITAN</div>
@@ -110,7 +110,7 @@
         <div class="d-info">
           <div class="p-names">
             <div class="name" onclick="switchMoon()">MOON</div>
-            <div class="name">MARS</div>
+            <div id="mar" class="name">MARS</div>
             <div class="name" onclick="switchEur()">EUROPA</div>
             <div class="name" onclick="switchTit()">TITAN</div>
           </div>
@@ -143,7 +143,7 @@
           <div class="p-names">
             <div class="name" onclick="switchMoon()">MOON</div>
             <div class="name" onclick="switchMars()">MARS</div>
-            <div class="name">EUROPA</div>
+            <div id="eur" class="name">EUROPA</div>
             <div class="name" onclick="switchTit()">TITAN</div>
           </div>
           <div class="p-name">EUROPA</div>
@@ -173,10 +173,10 @@
         <img class="p-img" src="assets/destination/image-titan.png" alt="" />
         <div class="d-info">
           <div class="p-names">
-            <div class="name" onclick="switchMoon()">MOON</div>
+            <div id="names" class="name" onclick="switchMoon()">MOON</div>
             <div class="name" onclick="switchMars()">MARS</div>
             <div class="name" onclick="switchEur()">EUROPA</div>
-            <div class="name">TITAN</div>
+            <div id="tit" class="name">TITAN</div>
           </div>
           <div class="p-name">TITAN</div>
           <div class="info">
