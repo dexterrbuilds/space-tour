@@ -173,6 +173,8 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 150px;
+    padding: 40px 0;
   }
 }
 
