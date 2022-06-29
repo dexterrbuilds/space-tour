@@ -80,7 +80,10 @@ section {
   font-size: x-large;
 }
 
-.p-info {
+.p-info,
+.pm-info,
+.pe-info,
+.pt-info {
   display: flex;
   margin-top: 50px;
   justify-content: space-between;
@@ -88,7 +91,14 @@ section {
   width: 1000px;
 }
 
-.moon {
+.pm-info,
+.pe-info,
+.pt-info,
+.p-info2 {
+  display: none;
+}
+
+.p-img {
   width: 350px;
 }
 
@@ -107,9 +117,10 @@ section {
 
 .name {
   margin-right: 30px;
+  cursor: pointer;
 }
 
-.planet {
+.p-name {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -183,7 +194,7 @@ section {
     width: 100%;
   }
 
-  .moon {
+  .p-img {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
@@ -200,7 +211,7 @@ section {
     padding: 0 10px;
   }
 
-  .planet {
+  .p-name {
     justify-content: center;
   }
 
@@ -270,6 +281,7 @@ section {
     align-items: flex-start;
     padding: 100px;
     height: 100%;
+    width: 100%;
     left: 40px;
     top: 0;
     bottom: 0;
@@ -291,7 +303,7 @@ section {
     width: 100%;
   }
 
-  .moon {
+  .p-img {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
@@ -308,7 +320,7 @@ section {
     padding: 0 10px;
   }
 
-  .planet {
+  .p-name {
     justify-content: center;
   }
 

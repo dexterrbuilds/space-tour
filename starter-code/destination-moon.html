@@ -39,16 +39,82 @@
     </header>
     <section>
       <div class="pyd">01 PICK YOUR DESTINATION</div>
-      <div class="p-info">
-        <img class="moon" src="assets/destination/image-moon.png" alt="" />
+      <div id="p-inf">
+        <div id="moon" class="p-info pm">
+          <img class="p-img" src="assets/destination/image-moon.png" alt="" />
+          <div class="d-info">
+            <div class="p-names">
+              <div class="name">MOON</div>
+              <div class="name" onclick="switchMars()">MARS</div>
+              <div class="name" onclick="switchEur()">EUROPA</div>
+              <div class="name" onclick="switchTit()">TITAN</div>
+            </div>
+            <div class="p-name">MOON</div>
+            <div class="info">
+              See our planet as you’ve never seen it before. A perfect relaxing
+              trip away to help regain perspective and come back refreshed.
+              While you’re there, take in some history by visiting the Luna 2
+              and Apollo 11 landing sites. Avg. distance 384,400 km Est. travel
+              time 3 days
+            </div>
+            <div class="dash"></div>
+            <div class="j-details">
+              <div>
+                <div class="j-title">AVG. DISTANCE</div>
+                <div class="j-deets">384, 400 KM</div>
+              </div>
+              <div>
+                <div class="j-title">EST. TRAVEL TIME</div>
+                <div class="j-deets">3 DAYS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-info2 pm">
+          <img class="p-img" src="assets/destination/image-moon.png" alt="" />
+          <div class="d-info">
+            <div class="p-names">
+              <div class="name">MOON</div>
+              <div class="name" onclick="switchMars()">MARS</div>
+              <div class="name" onclick="switchEur()">EUROPA</div>
+              <div class="name" onclick="switchTit()">TITAN</div>
+            </div>
+            <div class="p-name">MOON</div>
+            <div class="info">
+              See our planet as you’ve never seen it before. A perfect relaxing
+              trip away to help regain perspective and come back refreshed.
+              While you’re there, take in some history by visiting the Luna 2
+              and Apollo 11 landing sites. Avg. distance 384,400 km Est. travel
+              time 3 days
+            </div>
+            <div class="dash"></div>
+            <div class="j-details">
+              <div>
+                <div class="j-title">AVG. DISTANCE</div>
+                <div class="j-deets">384, 400 KM</div>
+              </div>
+              <div>
+                <div class="j-title">EST. TRAVEL TIME</div>
+                <div class="j-deets">3 DAYS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MARS -->
+
+      <div id="mars" class="pm-info">
+        <img class="p-img" src="assets/destination/image-mars.png" alt="" />
         <div class="d-info">
           <div class="p-names">
-            <div class="name">MOON</div>
+            <div class="name" onclick="switchMoon()">MOON</div>
             <div class="name">MARS</div>
-            <div class="name">EUROPA</div>
-            <div class="name">TITAN</div>
+            <div class="name" onclick="switchEur()">EUROPA</div>
+            <div class="name" onclick="switchTit()">TITAN</div>
           </div>
-          <div class="planet">MOON</div>
+          <div class="p-name">MARS</div>
           <div class="info">
             See our planet as you’ve never seen it before. A perfect relaxing
             trip away to help regain perspective and come back refreshed. While
@@ -59,11 +125,75 @@
           <div class="j-details">
             <div>
               <div class="j-title">AVG. DISTANCE</div>
-              <div class="j-deets">384, 400 KM</div>
+              <div class="j-deets">225 MIL. KM</div>
             </div>
             <div>
               <div class="j-title">EST. TRAVEL TIME</div>
-              <div class="j-deets">3 DAYS</div>
+              <div class="j-deets">9 MONTHS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EUROPA -->
+
+      <div id="europa" class="pe-info">
+        <img class="p-img" src="assets/destination/image-europa.png" alt="" />
+        <div class="d-info">
+          <div class="p-names">
+            <div class="name" onclick="switchMoon()">MOON</div>
+            <div class="name" onclick="switchMars()">MARS</div>
+            <div class="name">EUROPA</div>
+            <div class="name" onclick="switchTit()">TITAN</div>
+          </div>
+          <div class="p-name">EUROPA</div>
+          <div class="info">
+            See our planet as you’ve never seen it before. A perfect relaxing
+            trip away to help regain perspective and come back refreshed. While
+            you’re there, take in some history by visiting the Luna 2 and Apollo
+            11 landing sites. Avg. distance 384,400 km Est. travel time 3 days
+          </div>
+          <div class="dash"></div>
+          <div class="j-details">
+            <div>
+              <div class="j-title">AVG. DISTANCE</div>
+              <div class="j-deets">628 MIL. KM</div>
+            </div>
+            <div>
+              <div class="j-title">EST. TRAVEL TIME</div>
+              <div class="j-deets">3 YEARS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TITAN -->
+
+      <div id="titan" class="pt-info">
+        <img class="p-img" src="assets/destination/image-titan.png" alt="" />
+        <div class="d-info">
+          <div class="p-names">
+            <div class="name" onclick="switchMoon()">MOON</div>
+            <div class="name" onclick="switchMars()">MARS</div>
+            <div class="name" onclick="switchEur()">EUROPA</div>
+            <div class="name">TITAN</div>
+          </div>
+          <div class="p-name">TITAN</div>
+          <div class="info">
+            See our planet as you’ve never seen it before. A perfect relaxing
+            trip away to help regain perspective and come back refreshed. While
+            you’re there, take in some history by visiting the Luna 2 and Apollo
+            11 landing sites. Avg. distance 384,400 km Est. travel time 3 days
+          </div>
+          <div class="dash"></div>
+          <div class="j-details">
+            <div>
+              <div class="j-title">AVG. DISTANCE</div>
+              <div class="j-deets">1.6 BIL. KM</div>
+            </div>
+            <div>
+              <div class="j-title">EST. TRAVEL TIME</div>
+              <div class="j-deets">7 YEARS</div>
             </div>
           </div>
         </div>
