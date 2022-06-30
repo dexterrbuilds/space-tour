@@ -293,12 +293,35 @@ section {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 100px;
+    padding: 120px 20px;
     height: 100%;
-    width: 100%;
-    left: 40px;
+    width: 90%;
+    left: 39px;
     top: 0;
     bottom: 0;
+    backdrop-filter: blur(5px);
+  }
+
+  .nav-item {
+    width: 100%;
+    border-bottom: none;
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    text-align: start;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .nav-item:hover {
+    border-bottom: none;
+    border-right: 3px solid white;
+    cursor: pointer;
+  }
+
+  #dest {
+    border-bottom: none;
+    border-right: 3px solid white;
   }
 
   section {
@@ -331,7 +354,7 @@ section {
   }
 
   .name {
-    padding: 0 10px;
+    padding: 0;
   }
 
   .p-name {

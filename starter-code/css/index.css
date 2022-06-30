@@ -99,7 +99,7 @@ header img {
 }
 
 .space-txt {
-  font-family: "Bellefair";
+  font-family: "Barlow Condensed";
   font-size: small;
   line-height: 1.6;
 }
@@ -197,9 +197,7 @@ header img {
     display: block;
     text-align: center;
     width: 390px;
-    margin-top: 70px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 70px 0 40px;
   }
 
   header {
@@ -240,12 +238,35 @@ header img {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 100px;
+    padding: 120px 20px;
     height: 100%;
-    width: 100%;
-    left: 40px;
+    width: 90%;
+    left: 39px;
     top: 0;
     bottom: 0;
+    backdrop-filter: blur(5px);
+  }
+
+  .nav-item {
+    width: 100%;
+    border-bottom: none;
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    text-align: start;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .nav-item:hover {
+    border-bottom: none;
+    border-right: 3px solid white;
+    cursor: pointer;
+  }
+
+  #home {
+    border-bottom: none;
+    border-right: 3px solid white;
   }
 
   .sywt {
@@ -271,6 +292,6 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 0 40px;
+    padding: 40px 0 40px;
   }
 }

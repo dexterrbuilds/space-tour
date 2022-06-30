@@ -10,6 +10,13 @@ hamburger.addEventListener("click", () => {
 const dMoon = document.querySelector(".p-info2");
 const destMoon = document.getElementById("moon");
 
+windowWidth = window.innerWidth;
+function switchNav() {
+  if (windowWidth <= 490 + "px") {
+    document.querySelector(".nav-item").style.color = "blue";
+  }
+}
+
 function switchMars() {
   destMoon.innerHTML = document.getElementById("mars").innerHTML;
   document.getElementById("mar").style.borderBottom = "2px solid white";
