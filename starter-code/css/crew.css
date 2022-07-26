@@ -90,5 +90,10 @@ main {
   font-family: "Bellefair";
   color: #ffffffb9;
   font-size: x-large;
-  padding: 20px 0;
+  padding: 10px 0;
+}
+
+.crew-name {
+  font-family: "Bellefair";
+  font-size: xx-large;
 }
