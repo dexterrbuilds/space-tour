@@ -80,11 +80,13 @@ header img {
   font-family: "Barlow Condensed";
   color: white;
   margin: 20px 0 100px;
+  position: relative;
 }
 
 main {
   margin: 0 150px;
   display: flex;
+  gap: 200px;
 }
 
 .crew-role {
@@ -104,4 +106,10 @@ main {
   font-family: "Barlow Condensed";
   width: 300px;
   font-size: medium;
+}
+
+.crew-img img {
+  width: 350px;
+  position: absolute;
+  bottom: 0;
 }
