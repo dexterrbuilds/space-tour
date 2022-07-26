@@ -75,3 +75,8 @@ header img {
   opacity: 0.3;
   z-index: 10;
 }
+
+.myc {
+  font-family: "Barlow Condensed";
+  color: white;
+}
