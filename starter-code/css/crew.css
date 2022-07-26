@@ -79,5 +79,9 @@ header img {
 .myc {
   font-family: "Barlow Condensed";
   color: white;
-  margin: 20px 100px 50px;
+  margin: 20px 0 100px;
+}
+
+main {
+  margin: 0 150px;
 }
