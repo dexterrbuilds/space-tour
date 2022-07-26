@@ -89,11 +89,18 @@ main {
 .crew-role {
   font-family: "Bellefair";
   color: #ffffffb9;
-  font-size: x-large;
+  font-size: 30px;
   padding: 10px 0;
 }
 
 .crew-name {
   font-family: "Bellefair";
-  font-size: xx-large;
+  font-size: 40px;
+  padding: 15px 0;
+}
+
+.crew-info {
+  font-family: "Barlow";
+  width: 300px;
+  font-size: small;
 }
