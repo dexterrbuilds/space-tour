@@ -85,3 +85,10 @@ header img {
 main {
   margin: 0 150px;
 }
+
+.crew-role {
+  font-family: "Bellefair";
+  color: #ffffffb9;
+  font-size: x-large;
+  padding: 20px 0;
+}
