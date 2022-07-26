@@ -100,7 +100,7 @@ main {
 }
 
 .crew-info {
-  font-family: "Barlow";
+  font-family: "Barlow Condensed";
   width: 300px;
-  font-size: small;
+  font-size: medium;
 }
