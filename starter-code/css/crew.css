@@ -84,6 +84,7 @@ header img {
 
 main {
   margin: 0 150px;
+  display: flex;
 }
 
 .crew-role {
