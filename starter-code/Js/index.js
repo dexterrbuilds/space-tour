@@ -17,6 +17,10 @@ function switchNav() {
   }
 }
 
+function switchNavCrew() {
+  document.getElementById("crew").style.borderBottom = "2px solid white";
+}
+
 function switchMars() {
   destMoon.innerHTML = document.getElementById("mars").innerHTML;
   document.getElementById("mar").style.borderBottom = "2px solid white";
