@@ -37,10 +37,6 @@ header {
   color: white;
 }
 
-#dest {
-  border-bottom: 3px solid white;
-}
-
 .nav-item:hover {
   border-bottom: 3px solid white;
   cursor: pointer;
@@ -87,6 +83,10 @@ main {
   margin: 0 150px;
   display: flex;
   gap: 200px;
+}
+
+#crew {
+  border-bottom: 3px solid white;
 }
 
 .crew-role {
